@@ -3,6 +3,7 @@
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 import AuthButton from "./components/AuthButton";
+import HomeButton from "./components/HomeButton";
 
 export default function Home() {
   const { data: session } = useSession();
@@ -11,9 +12,12 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <div className="flex w-full items-center justify-between">
-          <h1 className="text-2xl font-bold text-black dark:text-zinc-50">
-            OAuth GCP Demo
-          </h1>
+          <div className="flex items-center gap-3">
+            <HomeButton />
+            <h1 className="text-2xl font-bold text-black dark:text-zinc-50">
+              OAuth GCP Demo
+            </h1>
+          </div>
           <AuthButton />
         </div>
 

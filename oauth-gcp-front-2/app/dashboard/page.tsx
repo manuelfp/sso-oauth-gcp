@@ -1,5 +1,6 @@
 import { auth, signOut } from "@/app/api/auth/[...nextauth]/route";
 import { redirect } from "next/navigation";
+import HomeButton from "../components/HomeButton";
 
 export default async function Dashboard() {
   const session = await auth();
@@ -13,9 +14,12 @@ export default async function Dashboard() {
       <nav className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
-            <h1 className="text-xl font-semibold text-black dark:text-zinc-50">
-              Dashboard
-            </h1>
+            <div className="flex items-center gap-3">
+              <HomeButton />
+              <h1 className="text-xl font-semibold text-black dark:text-zinc-50">
+                Dashboard
+              </h1>
+            </div>
             <form
               action={async () => {
                 "use server";
