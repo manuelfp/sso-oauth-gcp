@@ -1,0 +1,14 @@
+[01:27:34.706] Server  ERROR    ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/manuelgarizao/WorkspaceReact/oauth-gcp/oauth-gcp-front/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/manuelgarizao/WorkspaceReact/oauth-gcp/oauth-gcp-front/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/manuelgarizao/WorkspaceReact/oauth-gcp/oauth-gcp-front/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/manuelgarizao/WorkspaceReact/oauth-gcp/oauth-gcp-front/node_modules/next/dist/server/lib/router-server.js
+- /Users/manuelgarizao/WorkspaceReact/oauth-gcp/oauth-gcp-front/node_modules/next/dist/server/lib/start-server.js
+[01:27:36.855] Server  ERROR    ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- /Users/manuelgarizao/WorkspaceReact/oauth-gcp/oauth-gcp-front/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/manuelgarizao/WorkspaceReact/oauth-gcp/oauth-gcp-front/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/manuelgarizao/WorkspaceReact/oauth-gcp/oauth-gcp-front/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/manuelgarizao/WorkspaceReact/oauth-gcp/oauth-gcp-front/node_modules/next/dist/server/lib/router-server.js
+- /Users/manuelgarizao/WorkspaceReact/oauth-gcp/oauth-gcp-front/node_modules/next/dist/server/lib/start-server.js
